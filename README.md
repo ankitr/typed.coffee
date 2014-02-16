@@ -29,6 +29,7 @@ This is really all you need to get going.
 
 	<div class="element"></div>
 
+
 Want the animated blinking cursor? Add this CSS.
 
 	#typed-cursor{
@@ -65,6 +66,11 @@ Want the animated blinking cursor? Add this CSS.
 		50% { opacity:0; }
 		100% { opacity:1; }
 	}
+
+Grunt.js
+------------
+Typed.coffee uses Gruntjs to compile Coffeescript into JavaScript. [Read about Gruntjs Here](http://gruntjs.com/getting-started)
+
 
 Customization
 ----
